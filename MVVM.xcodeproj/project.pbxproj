@@ -16,6 +16,8 @@
 		46F473352BDC09790004DDBF /* MVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F473342BDC09790004DDBF /* MVVMTests.swift */; };
 		46F4733F2BDC09790004DDBF /* MVVMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F4733E2BDC09790004DDBF /* MVVMUITests.swift */; };
 		46F473412BDC09790004DDBF /* MVVMUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F473402BDC09790004DDBF /* MVVMUITestsLaunchTests.swift */; };
+		46F473502BDC11CE0004DDBF /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F4734F2BDC11CE0004DDBF /* LoginModel.swift */; };
+		46F473522BDC12F90004DDBF /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F473512BDC12F90004DDBF /* LoginViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		46F4733A2BDC09790004DDBF /* MVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		46F4733E2BDC09790004DDBF /* MVVMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMUITests.swift; sourceTree = "<group>"; };
 		46F473402BDC09790004DDBF /* MVVMUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		46F4734F2BDC11CE0004DDBF /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		46F473512BDC12F90004DDBF /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 		46F4731C2BDC09780004DDBF /* MVVM */ = {
 			isa = PBXGroup;
 			children = (
+				46F4734E2BDC11AF0004DDBF /* ViewModel */,
+				46F4734D2BDC11A80004DDBF /* Model */,
 				46F4731D2BDC09780004DDBF /* AppDelegate.swift */,
 				46F4731F2BDC09780004DDBF /* SceneDelegate.swift */,
 				46F473212BDC09780004DDBF /* ViewController.swift */,
@@ -125,6 +131,22 @@
 				46F473402BDC09790004DDBF /* MVVMUITestsLaunchTests.swift */,
 			);
 			path = MVVMUITests;
+			sourceTree = "<group>";
+		};
+		46F4734D2BDC11A80004DDBF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				46F4734F2BDC11CE0004DDBF /* LoginModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		46F4734E2BDC11AF0004DDBF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				46F473512BDC12F90004DDBF /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +281,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				46F473222BDC09780004DDBF /* ViewController.swift in Sources */,
+				46F473502BDC11CE0004DDBF /* LoginModel.swift in Sources */,
 				46F4731E2BDC09780004DDBF /* AppDelegate.swift in Sources */,
+				46F473522BDC12F90004DDBF /* LoginViewModel.swift in Sources */,
 				46F473202BDC09780004DDBF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
